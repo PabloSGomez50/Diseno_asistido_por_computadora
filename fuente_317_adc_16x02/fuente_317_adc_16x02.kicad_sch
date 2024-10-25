@@ -9787,6 +9787,16 @@
 		)
 		(uuid "92a099c5-9c55-4f9d-b371-c227a06be92a")
 	)
+	(text "Imin_lm385 = 10uA\nIdiseño = 0.5mA\n	 R1 = 21k5\n	R3 = 7k5\n"
+		(exclude_from_sim no)
+		(at 38.1 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9708b348-bef5-4c6d-b6b4-d73bf6cd8911")
+	)
 	(text "ESP8266"
 		(exclude_from_sim no)
 		(at 19.812 100.076 0)
@@ -10973,7 +10983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 247.65 27.432 90)
 			(effects
 				(font
@@ -11964,71 +11974,6 @@
 			(project "fuente_317_adc"
 				(path "/582826ff-9970-4283-a88f-29ce31fb61c2"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 24.13 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1fb9cbec-b491-4497-8f68-06f9573dc6ef")
-		(property "Reference" "#PWR015"
-			(at 24.13 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 26.67 19.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 24.13 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7844903-2765-4db5-abf0-22612d75b020")
-		)
-		(instances
-			(project "fuente_317_adc"
-				(path "/582826ff-9970-4283-a88f-29ce31fb61c2"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -14460,7 +14405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 234.95 43.942 90)
 			(effects
 				(font
@@ -14830,7 +14775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 236.22 65.532 90)
 			(effects
 				(font
@@ -15363,6 +15308,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 24.13 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7322d346-ba9a-4d6d-8b10-3fefe998878f")
+		(property "Reference" "#PWR03"
+			(at 24.13 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 26.924 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 24.13 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d250225-1566-470d-bdb9-3a785c47ec4b")
+		)
+		(instances
+			(project "fuente_317_adc_16x02"
+				(path "/582826ff-9970-4283-a88f-29ce31fb61c2"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 34.29 35.56 0)
 		(mirror y)
@@ -15610,7 +15620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 240.792 82.55 90)
 			(effects
 				(font
@@ -17114,7 +17124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 236.22 115.062 90)
 			(effects
 				(font
@@ -17181,7 +17191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 239.522 50.8 90)
 			(effects
 				(font
@@ -17661,7 +17671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 236.22 75.692 90)
 			(effects
 				(font
@@ -17722,7 +17732,7 @@
 			)
 		)
 		(property "Value" "+1V2"
-			(at 34.29 24.384 0)
+			(at 33.02 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17997,7 +18007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 256.54 65.532 90)
 			(effects
 				(font
@@ -18348,7 +18358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 261.62 18.542 90)
 			(effects
 				(font
@@ -19511,7 +19521,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "6k8"
 			(at 27.94 48.26 0)
 			(effects
 				(font
@@ -20767,7 +20777,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "22k"
 			(at 27.94 25.4 0)
 			(effects
 				(font
@@ -20842,7 +20852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 239.522 100.33 90)
 			(effects
 				(font
@@ -21240,7 +21250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 256.54 115.062 90)
 			(effects
 				(font
