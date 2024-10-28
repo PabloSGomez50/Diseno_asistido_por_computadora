@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 3.0,
-          "width": 1.8
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -179,10 +179,9 @@
       ],
       "track_widths": [
         0.0,
-        0.254,
-        0.7,
-        1.0,
-        5.0
+        0.762,
+        1.016,
+        1.27
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -433,7 +432,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -448,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "fuente_317_adc.kicad_pro",
+    "filename": "fuente_317_337.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -601,12 +600,8 @@
   },
   "sheets": [
     [
-      "582826ff-9970-4283-a88f-29ce31fb61c2",
+      "1529c77d-439e-4034-a8ae-e3c6a5487580",
       "Root"
-    ],
-    [
-      "78f4eec4-25a4-4720-9d62-235ce57dcdb8",
-      "7segmentos"
     ]
   ],
   "text_variables": {}
