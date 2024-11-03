@@ -6051,7 +6051,7 @@
 			(uuid "089bdb82-2ce4-4475-8db0-5d260e29a56d")
 		)
 		(instances
-			(project ""
+			(project "TP10_ej1_Gomez_312"
 				(path "/9e533d24-a283-4fba-a96e-24a1e51da606"
 					(reference "SW1")
 					(unit 1)
@@ -6540,7 +6540,7 @@
 			(uuid "c7e3c11c-5c9f-40bd-8fc5-156c85aae828")
 		)
 		(instances
-			(project ""
+			(project "TP10_ej1_Gomez_312"
 				(path "/9e533d24-a283-4fba-a96e-24a1e51da606"
 					(reference "U1")
 					(unit 1)
