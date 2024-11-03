@@ -93,7 +93,7 @@
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H1"
-			(at 0 -4.2 0)
+			(at -0.02 2.47 0)
 			(layer "F.SilkS")
 			(uuid "57020c58-35a0-4c34-8674-60fbcc41eaa2")
 			(effects
@@ -203,7 +203,7 @@
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J3"
-			(at 2.54 -5.08 360)
+			(at 8.77 2.54 0)
 			(layer "F.SilkS")
 			(uuid "036081a8-63bc-4217-9285-52f946abd9e4")
 			(effects
@@ -214,7 +214,7 @@
 			)
 		)
 		(property "Value" "Input"
-			(at 2.54 5.08 360)
+			(at 2.54 5.08 0)
 			(layer "F.Fab")
 			(uuid "36e69647-7b01-4121-b374-0c245fbd5b2a")
 			(effects
@@ -406,7 +406,7 @@
 			(uuid "1eb5c929-9e97-480e-b244-63294fdd610d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 360)
+			(at 2.54 0 0)
 			(layer "F.Fab")
 			(uuid "f14a4e62-84e2-4bef-b742-7b1d694d5298")
 			(effects
@@ -457,7 +457,7 @@
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J2"
-			(at 2.54 -5.08 90)
+			(at 8.7 -3.26 180)
 			(layer "F.SilkS")
 			(uuid "8c17184c-5dc6-42b8-9fc5-1b07f0a65fe0")
 			(effects
@@ -711,7 +711,7 @@
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J1"
-			(at 2.54 -5.08 360)
+			(at 8.92 2.54 0)
 			(layer "F.SilkS")
 			(uuid "0f6694ae-f163-4a6a-9d89-bd03e554836c")
 			(effects
@@ -722,7 +722,7 @@
 			)
 		)
 		(property "Value" "Output - RL"
-			(at 2.54 5.08 360)
+			(at 2.54 5.08 0)
 			(layer "F.Fab")
 			(uuid "7d10b3b2-d771-4234-8280-f8b399e250e0")
 			(effects
@@ -914,7 +914,7 @@
 			(uuid "3b7e73bc-5b22-4346-8551-99d7f74ac4ba")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 360)
+			(at 2.54 0 0)
 			(layer "F.Fab")
 			(uuid "fd789014-9ff9-4e31-8197-dffaf9e2a1eb")
 			(effects
@@ -965,7 +965,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C2"
-			(at 1.25 -3.75 90)
+			(at -2.344888 0.02 180)
 			(layer "F.SilkS")
 			(uuid "6a82ef6e-bae3-488e-9c58-4fb3c324d157")
 			(effects
@@ -2330,7 +2330,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J6"
-			(at 0 -2.33 270)
+			(at -2.69 3.505 0)
 			(layer "F.SilkS")
 			(uuid "4531ae52-481b-44e5-ba18-a1659e5a736c")
 			(effects
@@ -2341,7 +2341,7 @@
 			)
 		)
 		(property "Value" "Vbase"
-			(at 0 4.87 270)
+			(at 0 4.87 -90)
 			(layer "F.Fab")
 			(uuid "f9f3b986-eba9-4cc0-9ee5-801680f7640b")
 			(effects
@@ -2543,7 +2543,7 @@
 			(uuid "b5c13b83-e84f-4ad7-856e-205b13e20267")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 360)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "f316cccc-d9fe-45e4-8cd8-7b60c0660497")
 			(effects
@@ -2807,7 +2807,7 @@
 			(uuid "e83dc1e0-b33d-4091-b090-003261f8f4fa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 270)
+			(at 0 1.27 -90)
 			(layer "F.Fab")
 			(uuid "3985e048-b087-465a-b227-9284351f647b")
 			(effects
@@ -2858,7 +2858,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "Re1"
-			(at 5.08 -2.37 180)
+			(at 0.21 2.31 180)
 			(layer "F.SilkS")
 			(uuid "e0adf7f0-b591-4cdb-8ac8-c4f22f2375e0")
 			(effects
@@ -3130,7 +3130,7 @@
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H2"
-			(at 0 -4.2 0)
+			(at -0.02 2.47 0)
 			(layer "F.SilkS")
 			(uuid "ef7187c0-de85-44e0-a166-7a0c7ae3a386")
 			(effects
@@ -3240,7 +3240,7 @@
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H3"
-			(at 0 -4.2 0)
+			(at -0.01 2.47 0)
 			(layer "F.SilkS")
 			(uuid "c458ad71-706d-43c6-8e56-ef5b805c419c")
 			(effects
@@ -3350,7 +3350,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 1.25 -3.75 90)
+			(at -2.424888 0.01 180)
 			(layer "F.SilkS")
 			(uuid "e14cab59-a026-405d-994b-19a119ee0ca3")
 			(effects
@@ -4715,7 +4715,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "Rb1"
-			(at 5.08 -2.37 360)
+			(at 5.08 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "4e78e4c1-e50b-4ccc-9a45-c6f690e0e622")
 			(effects
@@ -4726,7 +4726,7 @@
 			)
 		)
 		(property "Value" "1Meg"
-			(at 5.08 2.37 360)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "3c1d0a65-a120-42ca-ac0e-0c783f2a5f34")
 			(effects
@@ -4938,7 +4938,7 @@
 			(uuid "45d02d06-8885-45ea-a37d-c5edc550aa1f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "9433f1ae-4cd2-474c-a70f-db92734f918b")
 			(effects
@@ -4987,7 +4987,7 @@
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H4"
-			(at 0 -4.2 0)
+			(at 0 2.49 0)
 			(layer "F.SilkS")
 			(uuid "a695492f-a2db-4cd6-8a75-27e4816cbaaf")
 			(effects
@@ -5097,7 +5097,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 1.27 -3.56 360)
+			(at 1.27 -3.56 0)
 			(layer "F.SilkS")
 			(uuid "c9c7414b-c1d6-4961-a21c-8818401d7597")
 			(effects
@@ -5108,7 +5108,7 @@
 			)
 		)
 		(property "Value" "BC548"
-			(at 1.27 2.79 360)
+			(at 1.27 2.79 0)
 			(layer "F.Fab")
 			(uuid "4d209f12-45bc-4657-8a48-df0c8e95296a")
 			(effects
@@ -5264,7 +5264,7 @@
 			(uuid "622254a6-757f-41ab-a81b-b7e24b6adf03")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "54c092d8-4e87-4bd6-9129-83b9c90ceb35")
 			(effects

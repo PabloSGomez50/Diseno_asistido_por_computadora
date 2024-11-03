@@ -72,9 +72,9 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
-			(mirror no)
-			(drillshape 1)
+			(outputformat 4)
+			(mirror yes)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -99,7 +99,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J7"
-			(at 0 -2.33 -90)
+			(at -2.75 -0.76 0)
 			(layer "F.SilkS")
 			(uuid "6cba682c-3c1b-49ca-a6a7-a471b749228c")
 			(effects
@@ -363,7 +363,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J8"
-			(at 0 -2.33 270)
+			(at -2.8 3.67 0)
 			(layer "F.SilkS")
 			(uuid "6e729630-9382-41b6-a0ec-ab029f6b947b")
 			(effects
@@ -374,7 +374,7 @@
 			)
 		)
 		(property "Value" "Vbase"
-			(at 0 4.87 270)
+			(at 0 4.87 -90)
 			(layer "F.Fab")
 			(uuid "7336c6d4-46c1-402d-9a5d-7863fb9c3b75")
 			(effects
@@ -576,7 +576,7 @@
 			(uuid "186b4135-f562-452b-87ed-29185a0d940c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 360)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "2be259d4-2db8-40bd-a3c3-63efc4804320")
 			(effects
@@ -627,7 +627,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 5.08 -2.37 -90)
+			(at 12.06 0 0)
 			(layer "F.SilkS")
 			(uuid "77c23561-4df2-4ce8-960e-28965dc7de9d")
 			(effects
@@ -899,7 +899,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "Rs1"
-			(at 5.08 -2.37 -90)
+			(at 4.82 2.39 -90)
 			(layer "F.SilkS")
 			(uuid "f13339e0-f811-4807-9a93-db692cc82f33")
 			(effects
@@ -1171,7 +1171,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J11"
-			(at 0 -2.33 -90)
+			(at -2.75 3.955 0)
 			(layer "F.SilkS")
 			(uuid "0c48f14d-b640-4fa1-a9b0-a7350a8d0e5f")
 			(effects
@@ -2800,7 +2800,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J10"
-			(at 0 -2.33 -90)
+			(at -2.69 3.03 0)
 			(layer "F.SilkS")
 			(uuid "24ef5200-cd50-444f-ac3f-10b2293a066a")
 			(effects
@@ -3064,7 +3064,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J9"
-			(at 0 -2.33 -90)
+			(at -1.89 5.155 0)
 			(layer "F.SilkS")
 			(uuid "f1e2616d-c555-4598-b07b-ab75b6e61838")
 			(effects
@@ -3328,7 +3328,7 @@
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H4"
-			(at 0 -4.2 0)
+			(at -0.08 2.56 0)
 			(layer "F.SilkS")
 			(uuid "b0e73938-b9ea-4234-8e59-5f2d3dd633df")
 			(effects
@@ -3438,7 +3438,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "Rc2"
-			(at 5.08 -2.37 90)
+			(at -1.95 0 180)
 			(layer "F.SilkS")
 			(uuid "5c12ecfc-6b86-4541-9972-b3fa703dc1d8")
 			(effects
@@ -3710,7 +3710,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C2"
-			(at 1.25 -3.75 180)
+			(at -0.614887 -3.46 180)
 			(layer "F.SilkS")
 			(uuid "e8c1dc44-00a2-48b6-b8e1-06c4d8955678")
 			(effects
@@ -5075,7 +5075,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
 		(property "Reference" "J3"
-			(at 2.54 -6.26 -90)
+			(at 3.1 -6.45 -90)
 			(layer "F.SilkS")
 			(uuid "bbe83cba-736e-44c4-9360-b93368598a17")
 			(effects
@@ -5567,7 +5567,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
-			(at 5.08 -2.37 90)
+			(at -1.92 -0.01 180)
 			(layer "F.SilkS")
 			(uuid "da60d661-58a5-4799-acbb-7fd2314f997c")
 			(effects
@@ -5839,7 +5839,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
-			(at 1.27 -3.56 90)
+			(at 4.46 -3.81 180)
 			(layer "F.SilkS")
 			(uuid "ba82d2cb-66f1-47ea-b07e-8d244d430ccb")
 			(effects
@@ -6068,7 +6068,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "Re2"
-			(at 5.08 -2.37 180)
+			(at -0.04 -2.47 180)
 			(layer "F.SilkS")
 			(uuid "03d52f50-0d8e-4023-9d06-c2a0bde46e8b")
 			(effects
@@ -6340,7 +6340,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J6"
-			(at 0 -2.33 0)
+			(at 2.61 4.245 0)
 			(layer "F.SilkS")
 			(uuid "c5e53bce-9285-4852-b598-0f24b552f97b")
 			(effects
@@ -6604,7 +6604,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 1.27 -3.56 90)
+			(at 4.83 -2.6 180)
 			(layer "F.SilkS")
 			(uuid "d0b63445-7339-440b-a34a-5472a1ab45fd")
 			(effects
@@ -7325,7 +7325,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J5"
-			(at 0 -2.33 0)
+			(at -0.02 -2.45 0)
 			(layer "F.SilkS")
 			(uuid "106b8864-2819-4b78-b1ad-d11ea2713a18")
 			(effects
@@ -7589,7 +7589,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "Rb1"
-			(at 5.08 -2.37 0)
+			(at -0.01 2.48 0)
 			(layer "F.SilkS")
 			(uuid "0057c825-657e-40d6-95fe-df13d32e5ffa")
 			(effects
@@ -7861,7 +7861,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 5.08 -2.37 90)
+			(at -1.84 -0.02 180)
 			(layer "F.SilkS")
 			(uuid "f0ad7f31-bd68-4383-a888-1302df0ba6bb")
 			(effects
@@ -8133,7 +8133,7 @@
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H1"
-			(at 0 -4.2 0)
+			(at 0.01 2.57 0)
 			(layer "F.SilkS")
 			(uuid "a005a51e-da3e-4309-b635-af1bca6ac8f8")
 			(effects
@@ -8243,7 +8243,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
 		(property "Reference" "J2"
-			(at 2.54 -6.26 -90)
+			(at -3.79 -4.72 0)
 			(layer "F.SilkS")
 			(uuid "48b2a672-a2be-4612-bc85-eb9a7ad90ea7")
 			(effects
@@ -8735,7 +8735,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 5.08 -2.37 -90)
+			(at 11.99 -0.01 0)
 			(layer "F.SilkS")
 			(uuid "f19e6436-7259-46df-b622-8078dcc2a239")
 			(effects
@@ -9007,7 +9007,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 1.25 -3.75 180)
+			(at -0.65 -3.29 180)
 			(layer "F.SilkS")
 			(uuid "f3dc07dd-0a30-49ab-8f26-0ac03abbef2b")
 			(effects
@@ -10873,7 +10873,7 @@
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H2"
-			(at 0 -4.2 0)
+			(at 0 2.54 0)
 			(layer "F.SilkS")
 			(uuid "d431f3fb-568a-4d8b-b813-5b782c588723")
 			(effects
@@ -10983,7 +10983,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "Re1"
-			(at 5.08 -2.37 180)
+			(at -0.07 2.22 180)
 			(layer "F.SilkS")
 			(uuid "c08a278e-5bc4-4fdb-9f77-fc7e40efa03c")
 			(effects
@@ -11255,7 +11255,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C4"
-			(at 1.25 -3.75 -90)
+			(at -1.784887 2.38 0)
 			(layer "F.SilkS")
 			(uuid "295e172a-1110-45bf-99de-08ffbf1fe002")
 			(effects
@@ -12620,7 +12620,7 @@
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H3"
-			(at 0 -4.2 0)
+			(at -0.01 2.56 0)
 			(layer "F.SilkS")
 			(uuid "95ff6aef-0b75-4068-8f24-74484b71659a")
 			(effects
@@ -12730,7 +12730,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C5"
-			(at 1.25 -3.75 0)
+			(at 1.23 3.66 0)
 			(layer "F.SilkS")
 			(uuid "da9938d7-d5f8-4863-a139-203f83b3648b")
 			(effects
@@ -15030,28 +15030,20 @@
 		(uuid "07b8bf05-0b72-43ee-a1e2-382c523faf2a")
 	)
 	(segment
+		(start 44.1 26.22)
+		(end 44.1 23.22)
+		(width 1.016)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "2a61aee6-1513-4fbc-bbef-1f4a1a3d20ea")
+	)
+	(segment
 		(start 24.6 31.92)
 		(end 24.6 29.5)
 		(width 1.016)
 		(layer "B.Cu")
 		(net 11)
 		(uuid "3099b19c-fdaa-4216-9919-d1555a1fb0f7")
-	)
-	(segment
-		(start 61.3 29.4)
-		(end 48.7 29.4)
-		(width 1.016)
-		(layer "B.Cu")
-		(net 11)
-		(uuid "352d8af2-1473-4f7d-a518-1b10a345a6b0")
-	)
-	(segment
-		(start 48.7 29.4)
-		(end 44.1 24.8)
-		(width 1.016)
-		(layer "B.Cu")
-		(net 11)
-		(uuid "3873461f-9da5-4ac3-ae85-8fdd15928bc0")
 	)
 	(segment
 		(start 44.1 29.6)
@@ -15062,12 +15054,12 @@
 		(uuid "54e4e70c-52d1-4b48-8331-c0903a9f3e12")
 	)
 	(segment
-		(start 63.9 37)
-		(end 63.9 32)
+		(start 63.66 37.24)
+		(end 63.66 31.76)
 		(width 1.016)
 		(layer "B.Cu")
 		(net 11)
-		(uuid "5c8b7b4d-bfb2-471e-bb78-c01b4e8b4860")
+		(uuid "5f05c609-25d5-4bd6-8703-c58fafa79a89")
 	)
 	(segment
 		(start 44.1 21.9)
@@ -15078,28 +15070,20 @@
 		(uuid "654e7f13-1500-4e47-ab73-fe29ddf700f4")
 	)
 	(segment
-		(start 59.8 41.1)
-		(end 63.9 37)
+		(start 59.8 43.6)
+		(end 59.8 41.1)
 		(width 1.016)
 		(layer "B.Cu")
 		(net 11)
-		(uuid "71ba906c-c883-4812-bb6e-c9db5ca2a63f")
+		(uuid "69db5593-bdfa-4779-8df1-a3084e32b450")
 	)
 	(segment
-		(start 44.1 24.8)
-		(end 44.1 23.22)
+		(start 62.55 30.65)
+		(end 48.53 30.65)
 		(width 1.016)
 		(layer "B.Cu")
 		(net 11)
-		(uuid "83dda94f-5030-488c-b73e-f5c51e7e351c")
-	)
-	(segment
-		(start 63.9 32)
-		(end 61.3 29.4)
-		(width 1.016)
-		(layer "B.Cu")
-		(net 11)
-		(uuid "862e4c84-9dbf-4272-9030-56b89a878c4b")
+		(uuid "6da135c4-83ab-4573-84f8-cd497be9fa7a")
 	)
 	(segment
 		(start 24.6 29.5)
@@ -15108,14 +15092,6 @@
 		(layer "B.Cu")
 		(net 11)
 		(uuid "955e0e60-fdb4-4a99-ac00-ea6a7034a393")
-	)
-	(segment
-		(start 59.8 43.6)
-		(end 59.8 41.1)
-		(width 1.016)
-		(layer "B.Cu")
-		(net 11)
-		(uuid "95a158c0-beae-4f55-83f2-4a0734a4a088")
 	)
 	(segment
 		(start 29.9 21.008)
@@ -15150,12 +15126,36 @@
 		(uuid "c6a6e9e5-ae14-4e98-a794-1f3417aa27d8")
 	)
 	(segment
+		(start 63.66 31.76)
+		(end 62.55 30.65)
+		(width 1.016)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "d2bea7cc-d4d7-4cfa-9aae-95f440cea2e6")
+	)
+	(segment
 		(start 29.34 21.568)
 		(end 29.9 21.008)
 		(width 1.016)
 		(layer "B.Cu")
 		(net 11)
 		(uuid "dc9dcb93-f5be-485d-9963-5f54e282534d")
+	)
+	(segment
+		(start 48.53 30.65)
+		(end 44.1 26.22)
+		(width 1.016)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "dd72a589-de80-48b2-9358-286edddd8f89")
+	)
+	(segment
+		(start 59.8 41.1)
+		(end 63.66 37.24)
+		(width 1.016)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "e4261651-daaa-474d-b09e-272a16de3786")
 	)
 	(segment
 		(start 29.34 24.76)
@@ -15282,25 +15282,25 @@
 				(xy 31.294532 28.200001) (xy 31.314364 28.426686) (xy 31.314366 28.426697) (xy 31.373258 28.646488)
 				(xy 31.37326 28.646492) (xy 31.373261 28.646496) (xy 31.379458 28.659785) (xy 31.46943 28.852731)
 				(xy 31.469431 28.852733) (xy 31.469432 28.852734) (xy 31.569076 28.995041) (xy 31.591402 29.061244)
-				(xy 31.5915 29.066162) (xy 31.5915 30.699333) (xy 31.606253 30.7735) (xy 31.630254 30.89416) (xy 31.630256 30.894168)
-				(xy 31.706277 31.077701) (xy 31.706282 31.07771) (xy 31.816646 31.24288) (xy 31.816649 31.242884)
-				(xy 32.055181 31.481415) (xy 32.088666 31.542738) (xy 32.0915 31.569096) (xy 32.0915 32.253836)
-				(xy 32.071815 32.320875) (xy 32.069075 32.324959) (xy 31.969432 32.467265) (xy 31.969431 32.467267)
-				(xy 31.873261 32.673502) (xy 31.873258 32.673511) (xy 31.814366 32.893302) (xy 31.814364 32.893313)
-				(xy 31.794532 33.119998) (xy 31.794532 33.120001) (xy 31.814364 33.346686) (xy 31.814366 33.346697)
-				(xy 31.873258 33.566488) (xy 31.873261 33.566497) (xy 31.969431 33.772732) (xy 31.969432 33.772734)
-				(xy 32.099954 33.959141) (xy 32.260858 34.120045) (xy 32.260861 34.120047) (xy 32.447266 34.250568)
-				(xy 32.653504 34.346739) (xy 32.873308 34.405635) (xy 33.03523 34.419801) (xy 33.099998 34.425468)
-				(xy 33.1 34.425468) (xy 33.100002 34.425468) (xy 33.156673 34.420509) (xy 33.326692 34.405635) (xy 33.546496 34.346739)
-				(xy 33.752734 34.250568) (xy 33.939139 34.120047) (xy 34.049453 34.009732) (xy 34.110774 33.976249)
-				(xy 34.180466 33.981233) (xy 34.2364 34.023104) (xy 34.240235 34.028524) (xy 34.316646 34.14288)
-				(xy 34.316649 34.142884) (xy 35.716647 35.542881) (xy 35.804669 35.630903) (xy 35.85712 35.683354)
-				(xy 36.022289 35.793717) (xy 36.022295 35.79372) (xy 36.022296 35.793721) (xy 36.205831 35.869744)
-				(xy 36.367757 35.901953) (xy 36.400666 35.908499) (xy 36.40067 35.9085) (xy 36.400671 35.9085) (xy 36.599329 35.9085)
-				(xy 37.23033 35.9085) (xy 37.297369 35.928185) (xy 37.343124 35.980989) (xy 37.353068 36.050147)
-				(xy 37.351948 36.05669) (xy 37.3495 36.068997) (xy 37.3495 36.271007) (xy 37.388907 36.469119) (xy 37.388909 36.469127)
-				(xy 37.466212 36.655752) (xy 37.466217 36.655762) (xy 37.570602 36.811985) (xy 37.59148 36.878663)
-				(xy 37.5915 36.880876) (xy 37.5915 37.930904) (xy 37.571815 37.997943) (xy 37.555181 38.018585)
+				(xy 31.5915 29.066162) (xy 31.5915 30.699333) (xy 31.630254 30.894161) (xy 31.630256 30.894169)
+				(xy 31.650967 30.944169) (xy 31.706277 31.077701) (xy 31.706282 31.07771) (xy 31.816646 31.24288)
+				(xy 31.816649 31.242884) (xy 32.055181 31.481415) (xy 32.088666 31.542738) (xy 32.0915 31.569096)
+				(xy 32.0915 32.253836) (xy 32.071815 32.320875) (xy 32.069075 32.324959) (xy 31.969432 32.467265)
+				(xy 31.969431 32.467267) (xy 31.873261 32.673502) (xy 31.873258 32.673511) (xy 31.814366 32.893302)
+				(xy 31.814364 32.893313) (xy 31.794532 33.119998) (xy 31.794532 33.120001) (xy 31.814364 33.346686)
+				(xy 31.814366 33.346697) (xy 31.873258 33.566488) (xy 31.873261 33.566497) (xy 31.969431 33.772732)
+				(xy 31.969432 33.772734) (xy 32.099954 33.959141) (xy 32.260858 34.120045) (xy 32.260861 34.120047)
+				(xy 32.447266 34.250568) (xy 32.653504 34.346739) (xy 32.873308 34.405635) (xy 33.03523 34.419801)
+				(xy 33.099998 34.425468) (xy 33.1 34.425468) (xy 33.100002 34.425468) (xy 33.156673 34.420509) (xy 33.326692 34.405635)
+				(xy 33.546496 34.346739) (xy 33.752734 34.250568) (xy 33.939139 34.120047) (xy 34.049453 34.009732)
+				(xy 34.110774 33.976249) (xy 34.180466 33.981233) (xy 34.2364 34.023104) (xy 34.240235 34.028524)
+				(xy 34.316646 34.14288) (xy 34.316649 34.142884) (xy 35.716647 35.542881) (xy 35.804669 35.630903)
+				(xy 35.85712 35.683354) (xy 36.022289 35.793717) (xy 36.022295 35.79372) (xy 36.022296 35.793721)
+				(xy 36.205831 35.869744) (xy 36.367757 35.901953) (xy 36.400666 35.908499) (xy 36.40067 35.9085)
+				(xy 36.400671 35.9085) (xy 36.599329 35.9085) (xy 37.23033 35.9085) (xy 37.297369 35.928185) (xy 37.343124 35.980989)
+				(xy 37.353068 36.050147) (xy 37.351948 36.05669) (xy 37.3495 36.068997) (xy 37.3495 36.271007) (xy 37.388907 36.469119)
+				(xy 37.388909 36.469127) (xy 37.466212 36.655752) (xy 37.466217 36.655762) (xy 37.570602 36.811985)
+				(xy 37.59148 36.878663) (xy 37.5915 36.880876) (xy 37.5915 37.930904) (xy 37.571815 37.997943) (xy 37.555181 38.018585)
 				(xy 37.162232 38.411534) (xy 37.124335 38.449431) (xy 37.021758 38.552007) (xy 36.911395 38.717176)
 				(xy 36.91139 38.717185) (xy 36.835369 38.900717) (xy 36.835367 38.900725) (xy 36.796613 39.095553)
 				(xy 36.796613 40.733836) (xy 36.776928 40.800875) (xy 36.774188 40.804959) (xy 36.674545 40.947265)
@@ -15593,17 +15593,20 @@
 				(xy 60.567331 44.793796) (xy 60.682546 44.707546) (xy 60.768796 44.592331) (xy 60.819091 44.457483)
 				(xy 60.8255 44.397873) (xy 60.825499 42.802128) (xy 60.819091 42.742517) (xy 60.816317 42.735079)
 				(xy 60.8085 42.691748) (xy 60.8085 41.569096) (xy 60.828185 41.502057) (xy 60.844819 41.481415)
-				(xy 62.746234 39.580001) (xy 64.683354 37.642881) (xy 64.793722 37.477703) (xy 64.854796 37.330256)
-				(xy 64.869744 37.294169) (xy 64.9085 37.099329) (xy 64.9085 31.900671) (xy 64.869744 31.705831)
-				(xy 64.793721 31.522296) (xy 64.79372 31.522295) (xy 64.793717 31.522289) (xy 64.683354 31.35712)
-				(xy 64.683353 31.357119) (xy 64.542881 31.216647) (xy 63.243968 29.917734) (xy 62.496234 29.169999)
-				(xy 65.821127 29.169999) (xy 65.821128 29.17) (xy 66.784314 29.17) (xy 66.77992 29.174394) (xy 66.727259 29.265606)
-				(xy 66.7 29.367339) (xy 66.7 29.472661) (xy 66.727259 29.574394) (xy 66.77992 29.665606) (xy 66.784314 29.67)
-				(xy 65.821128 29.67) (xy 65.87373 29.866317) (xy 65.873734 29.866326) (xy 65.969865 30.072482) (xy 66.100342 30.25882)
-				(xy 66.261179 30.419657) (xy 66.447517 30.550134) (xy 66.653673 30.646265) (xy 66.653682 30.646269)
-				(xy 66.849999 30.698872) (xy 66.85 30.698871) (xy 66.85 29.735686) (xy 66.854394 29.74008) (xy 66.945606 29.792741)
-				(xy 67.047339 29.82) (xy 67.152661 29.82) (xy 67.254394 29.792741) (xy 67.345606 29.74008) (xy 67.35 29.735686)
-				(xy 67.35 30.698872) (xy 67.546317 30.646269) (xy 67.546326 30.646265) (xy 67.752482 30.550134)
+				(xy 64.44335 37.882884) (xy 64.443353 37.882881) (xy 64.553721 37.717704) (xy 64.629744 37.534169)
+				(xy 64.640817 37.4785) (xy 64.65792 37.392517) (xy 64.6685 37.339331) (xy 64.6685 31.66067) (xy 64.668499 31.660666)
+				(xy 64.660359 31.619743) (xy 64.629744 31.465831) (xy 64.570943 31.323874) (xy 64.553722 31.282298)
+				(xy 64.553717 31.282289) (xy 64.443354 31.11712) (xy 64.403935 31.077701) (xy 64.302881 30.976647)
+				(xy 63.759175 30.432941) (xy 63.192884 29.866649) (xy 63.19288 29.866646) (xy 63.02771 29.756282)
+				(xy 63.027701 29.756277) (xy 62.844169 29.680256) (xy 62.844161 29.680254) (xy 62.649333 29.6415)
+				(xy 62.649329 29.6415) (xy 48.999096 29.6415) (xy 48.932057 29.621815) (xy 48.911415 29.605181)
+				(xy 48.476233 29.169999) (xy 65.821127 29.169999) (xy 65.821128 29.17) (xy 66.784314 29.17) (xy 66.77992 29.174394)
+				(xy 66.727259 29.265606) (xy 66.7 29.367339) (xy 66.7 29.472661) (xy 66.727259 29.574394) (xy 66.77992 29.665606)
+				(xy 66.784314 29.67) (xy 65.821128 29.67) (xy 65.87373 29.866317) (xy 65.873734 29.866326) (xy 65.969865 30.072482)
+				(xy 66.100342 30.25882) (xy 66.261179 30.419657) (xy 66.447517 30.550134) (xy 66.653673 30.646265)
+				(xy 66.653682 30.646269) (xy 66.849999 30.698872) (xy 66.85 30.698871) (xy 66.85 29.735686) (xy 66.854394 29.74008)
+				(xy 66.945606 29.792741) (xy 67.047339 29.82) (xy 67.152661 29.82) (xy 67.254394 29.792741) (xy 67.345606 29.74008)
+				(xy 67.35 29.735686) (xy 67.35 30.698872) (xy 67.546317 30.646269) (xy 67.546326 30.646265) (xy 67.752482 30.550134)
 				(xy 67.93882 30.419657) (xy 68.099657 30.25882) (xy 68.230134 30.072482) (xy 68.326265 29.866326)
 				(xy 68.326269 29.866317) (xy 68.378872 29.67) (xy 67.415686 29.67) (xy 67.42008 29.665606) (xy 67.472741 29.574394)
 				(xy 67.5 29.472661) (xy 67.5 29.367339) (xy 67.472741 29.265606) (xy 67.42008 29.174394) (xy 67.415686 29.17)
@@ -15613,17 +15616,14 @@
 				(xy 67.152661 29.02) (xy 67.047339 29.02) (xy 66.945606 29.047259) (xy 66.854394 29.09992) (xy 66.85 29.104314)
 				(xy 66.85 28.141127) (xy 66.653671 28.193734) (xy 66.447517 28.289865) (xy 66.261179 28.420342)
 				(xy 66.100342 28.581179) (xy 65.969865 28.767517) (xy 65.873734 28.973673) (xy 65.87373 28.973682)
-				(xy 65.821127 29.169999) (xy 62.496234 29.169999) (xy 61.942884 28.616649) (xy 61.94288 28.616646)
-				(xy 61.77771 28.506282) (xy 61.777697 28.506275) (xy 61.748469 28.494169) (xy 61.748468 28.494169)
-				(xy 61.594169 28.430256) (xy 61.594161 28.430254) (xy 61.399333 28.3915) (xy 61.399329 28.3915)
-				(xy 49.169096 28.3915) (xy 49.102057 28.371815) (xy 49.081415 28.355181) (xy 45.144819 24.418585)
-				(xy 45.111334 24.357262) (xy 45.1085 24.330904) (xy 45.1085 24.086162) (xy 45.128185 24.019123)
-				(xy 45.130899 24.015076) (xy 45.230568 23.872734) (xy 45.326739 23.666496) (xy 45.385635 23.446692)
-				(xy 45.402634 23.252384) (xy 45.405468 23.220001) (xy 45.405468 23.219998) (xy 45.399037 23.146488)
-				(xy 45.385635 22.993308) (xy 45.332143 22.793673) (xy 45.326741 22.773511) (xy 45.326738 22.773502)
-				(xy 45.231708 22.569711) (xy 45.230568 22.567266) (xy 45.164779 22.473308) (xy 45.130925 22.424959)
-				(xy 45.108597 22.358752) (xy 45.1085 22.353836) (xy 45.1085 22.1405) (xy 45.128185 22.073461) (xy 45.180989 22.027706)
-				(xy 45.2325 22.0165) (xy 46.987581 22.0165) (xy 47.05462 22.036185) (xy 47.100375 22.088989) (xy 47.110319 22.158147)
+				(xy 65.821127 29.169999) (xy 48.476233 29.169999) (xy 45.144819 25.838585) (xy 45.111334 25.777262)
+				(xy 45.1085 25.750904) (xy 45.1085 24.086162) (xy 45.128185 24.019123) (xy 45.130899 24.015076)
+				(xy 45.230568 23.872734) (xy 45.326739 23.666496) (xy 45.385635 23.446692) (xy 45.402634 23.252384)
+				(xy 45.405468 23.220001) (xy 45.405468 23.219998) (xy 45.399037 23.146488) (xy 45.385635 22.993308)
+				(xy 45.332143 22.793673) (xy 45.326741 22.773511) (xy 45.326738 22.773502) (xy 45.231708 22.569711)
+				(xy 45.230568 22.567266) (xy 45.164779 22.473308) (xy 45.130925 22.424959) (xy 45.108597 22.358752)
+				(xy 45.1085 22.353836) (xy 45.1085 22.1405) (xy 45.128185 22.073461) (xy 45.180989 22.027706) (xy 45.2325 22.0165)
+				(xy 46.987581 22.0165) (xy 47.05462 22.036185) (xy 47.100375 22.088989) (xy 47.110319 22.158147)
 				(xy 47.081294 22.221703) (xy 47.064966 22.236428) (xy 47.065329 22.23686) (xy 47.061184 22.240337)
 				(xy 46.900342 22.401179) (xy 46.769865 22.587517) (xy 46.673734 22.793673) (xy 46.67373 22.793682)
 				(xy 46.621127 22.989999) (xy 46.621128 22.99) (xy 47.584314 22.99) (xy 47.57992 22.994394) (xy 47.527259 23.085606)
